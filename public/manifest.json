@@ -1,0 +1,28 @@
+{
+    "name": "Pioneer Network Controller",
+    "short_name": "Pioneer",
+    "description": "DLNA Controller for Pioneer N-50A",
+    "start_url": "/?mode=standalone",
+    "display": "standalone",
+    "display_override": [
+        "standalone",
+        "fullscreen"
+    ],
+    "background_color": "#121212",
+    "theme_color": "#121212",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
