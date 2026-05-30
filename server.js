@@ -10,7 +10,12 @@ const dlna = require('./dlnaService');
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server, {
+    cors: {
+        origin: "*", // Разрешаем доступ нашему телефону
+        methods: ["GET", "POST"]
+    }
+});
 
 const PORT = 3000;
 
